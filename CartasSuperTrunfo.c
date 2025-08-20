@@ -14,6 +14,23 @@ int main() {
     float area2;
     float pib2;
     int pontos2;
+
+    // Cadastro da Carta 1
+    printf("=== Cadastro da Carta 1 ===\n");
+    printf("Digite o código da carta (ex: A01): ");
+    scanf("%s", codigo1);
+
+    printf("Digite a populacao: ");
+    scanf("%d", &populacao1);
+
+    printf("Digite a area: ");
+    scanf("%f", &area1);
+
+    printf("Digite o PIB: ");
+    scanf("%f", &pib1);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf("%d", &pontos1);
     
 
     return 0;
